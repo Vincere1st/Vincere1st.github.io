@@ -1,0 +1,97 @@
+/***************General**************/
+
+
+/**************Responsive************/
+
+
+
+/**************Nav*******************/
+
+
+/*************Carousel***************/
+.carousel-item{
+	
+}
+.carousel-item > img{
+
+
+}
+
+/****************Fellows************/
+.fellows > .row > h2{
+ padding-left: 50px;
+}
+
+.frame > img{
+	opacity: 0.7;
+
+}
+
+.frame-dead > img{
+	opacity: 0.3;
+}
+
+.frame:hover img{
+	opacity: 1;
+}
+
+.reward{
+	flex: 1 1 0;
+	background-color: white;
+	border-radius: 15px;
+	top: 20px;
+	margin-left: 25%;
+	width: auto;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.reward > p{
+	margin: 15px; 
+}
+
+.frame:hover .reward{
+	opacity: 0;
+}
+
+.dead{
+	top: 300px;
+	margin-left: 25%;
+	width: auto;
+	position: absolute;
+	opacity: 1;
+	font-size: 2rem;
+}
+
+.frame-dead:hover .dead{
+	opacity: 0;
+}
+
+.frame-dead:hover img{
+	opacity: 1;
+}
+
+
+.recompense .btn{
+	margin-left: 25%;
+	font-size: 2em;
+}
+
+/**************Army zone****************/
+
+.army > .btn{
+	font-weight: 200;
+}
+
+/************Footer zone***************/
+@media (max-width: 760px)  {
+ .footer a {
+   font-size: 0.7rem;
+ }
+}
+
+@media (min-width: 760px)  {
+  .footer a {
+    font-size: 1rem;
+  }
+}
