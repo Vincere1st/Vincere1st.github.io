@@ -1,0 +1,236 @@
+/***********************Font style***********************/
+@font-face{
+    font-family: 'anicb';
+    src: url('./sources/policies/anicb___.ttf');
+
+}
+
+@font-face{
+	font-family: 'anicm';
+	src: url('./sources/policies/anicm___.ttf');
+}
+
+@font-face{
+	font-family: 'partybusiness';
+	src: url('./sources/policies/partybusiness.ttf');
+}
+
+@font-face{
+	font-family: 'tngan';
+	src: url('./sources/policies/tngan.ttf');
+}
+
+@font-face{
+	font-family: 'tnganb';
+	src: url('./sources/policies/tnganb.ttf');
+}
+
+@font-face{
+	font-family: 'tnganbi';
+	src: url('./sources/policies/tnganbi.ttf');
+}
+
+@font-face{
+	font-family: 'tngani';
+	src: url('./sources/policies/tngani.ttf');
+}
+
+/**************************General************************/
+
+@media (max-width: 760px)  {
+	.fellows h2 {
+		font-size: 1rem;
+ 	}
+ 	.fellows-menu a{
+ 		font-size: 0.8rem;
+ 	}
+}
+
+@media (min-width: 760px)  {
+  .fellows h2 {
+    font-size: 2rem;
+  }
+  .fellows-menu a{
+  	font-size: 1.3rem;
+  }
+  .card{
+  	font-size: 2rem;
+  }
+  h3{
+  	font-size: 3rem;
+  }
+}
+
+
+/**************************Navbar*************************/
+.navbar{
+	background-color: #FE661D;
+	font-family: anicm;
+}
+/**Not use class bootstrap for color
+because for effect with hover**/
+.navbar-light .navbar-nav .nav-link, .navbar-light .navbar-nav .active>.nav-link {
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+	font-family: anicb;
+	color: white;
+	font-style: italic;
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    border-bottom: 2px solid #FFF;
+    width: 100%;
+}
+.separator:after {
+	content:"|";
+	position: absolute;
+	margin-left: 5px;
+}
+
+
+
+/**************************Carousel***********************/
+
+.carousel-caption > h2{
+	font-family: partybusiness;
+	font-size: 5em;
+}
+
+.carousel-caption > p{
+	font-family: partybusiness;
+	font-size: 3em;
+	margin-bottom: 200px;
+	margin-left: 2.5em;
+}
+
+.carousel-caption .indent{
+	padding-left: 5.5em;
+}
+
+/***********************Fellows***********************/
+.fellows{
+	background-image: url(./images/bg_light.png);
+	background-repeat: repeat;
+	padding-bottom: 20px;
+}
+
+.fellows h2{
+	font-family: anicm;
+	
+	margin-top: 35px;
+	margin-bottom: 35px;
+}
+
+.symbol1{
+	font-family: tnganbi;
+	font-size: 1em;
+	color: #FE661D;
+}
+
+/**Menu fellows zone**/
+.fellows-menu a{
+	font-family: anicm;
+	color: #6D6C68;
+}
+
+.fellows-menu .dangerous{
+	color: #FE661D;
+}
+
+.symbol2{
+	font-family: tnganbi;
+	color: #FE661D;
+}
+
+/**Fellows card**/
+.card{
+	font-family: partybusiness;
+}
+
+.orange-dead{
+	font-family: anicm;
+	color: #FE661D;
+}
+.orange{
+	color: #FE661D;
+}
+
+.frame > img{
+	opacity: 0.5;
+
+}
+
+.card-subtitle>h3{
+	margin-top: 50%;
+	margin-left: 25%;
+	margin-right: 25%;
+
+}
+.frame-dead > img{
+	opacity: 0.3;
+}
+
+.frame:hover img{
+	opacity: 1;
+}
+
+.reward{
+	flex: 1 1 0;
+	background-color: white;
+	border-radius: 15px;
+	top: 10px;
+	margin-left: 15%;
+	margin-right: 15%;
+	width: auto;
+	position: absolute;
+	opacity: 0.8;
+}
+
+.reward > p{
+	margin: 15px; 
+}
+
+.frame:hover .reward, .frame:hover .reward-name{
+	opacity: 0;
+}
+
+.dead{
+	margin-top: 10%;
+	margin-left: 25%;
+	width: auto;
+	position: absolute;
+	opacity: 1;
+	font-size: 2rem;
+}
+
+.dead-name{
+	margin-top: 50%;
+	margin-left: 15%;
+	margin-right: 15%;
+}
+.frame-dead:hover .dead{
+	opacity: 0;
+}
+
+.frame-dead:hover img{
+	opacity: 1;
+}
+
+/********************Recompense**********************/
+
+.recompense{
+	background-image: url(./images/bg_dark.png);
+	font-family: partybusiness;
+	padding-bottom: -50px;
+	color: #fff;
+}
+
+.recompense >p{
+	font-family: anicm;
+}
+
+.image-coin{
+	background-image: url(./images/bg_dark.png);
+}
